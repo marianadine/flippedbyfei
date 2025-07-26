@@ -3,21 +3,23 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{
+      height: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column'
+    }}>
+      <h1 style={{
+        fontFamily: 'Funnel Display, sans-serif',
+        fontSize: '48px',
+        margin: 0
+      }}>
+        Coming Soon!
+      </h1>
+      <p style={{ fontSize: '18px', marginTop: '10px' }}>
+        Stay tuned for updates.
+      </p>
     </div>
   );
 }
