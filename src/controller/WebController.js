@@ -1,11 +1,14 @@
-import React from 'react'
+import { Routes, Route } from "react-router-dom";
+import Home from "../components/Home";
 
-const WebController = () => {
+function WebController() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
+  );
 }
 
-export default WebController
+export default WebController;
